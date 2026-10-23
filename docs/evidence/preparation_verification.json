@@ -1,0 +1,181 @@
+{
+  "verified_at": "2026-10-23T03:07:26.123594+00:00",
+  "python_version": "3.12.14",
+  "scope": "securities_only_offline_preparation",
+  "normalization_version": "securities-v1",
+  "two_runs_equal_excluding_timestamp": true,
+  "all_output_file_hashes_verified": true,
+  "raw_files_unchanged_since_initial_audit": true,
+  "raw_files": [
+    {
+      "path": "labels/training/TL_1.CoT_1.증권_03.상품 비교 추천형.zip",
+      "bytes": 4256859,
+      "sha256": "94995adc90d98b20261ba722e710cdfef25e9bbd149513e7e6c3b2d3177ad4c3"
+    },
+    {
+      "path": "labels/validation/VL_1.CoT_1.증권_03.상품 비교 추천형.zip",
+      "bytes": 548570,
+      "sha256": "4ace80b45d4f94db916c08c81a1e199a10251a06a2897304d082fd258860f30c"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_01.주식형.zip",
+      "bytes": 2883672,
+      "sha256": "5722a733a4a446314b5446c30ce16f00d3c13aabeb8141c6aa2a77adfac0c340"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_02.채권형.zip",
+      "bytes": 1432640,
+      "sha256": "575fe2e2f9c89cdd8c5b1f7b833b5f724b90aee371e000412477d96ecb2123cf"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_03.재간접.zip",
+      "bytes": 3541801,
+      "sha256": "f5460862e621d08583695e71921a7fa868149e17dfd489334d34a75cf7e2746a"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_04.단기금융.zip",
+      "bytes": 438253,
+      "sha256": "de923888ce97eda74fd18bd1c622443d25dffa6db7c0d97c9bb292c1d860a992"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_05.파생형.zip",
+      "bytes": 278441,
+      "sha256": "6522cab1e1f8df6550a613caf5db0d5ea4766105ce22defbd2e16f076044b02d"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_06.퇴직연금.zip",
+      "bytes": 2416724,
+      "sha256": "3d7c843cd1c0732d5e4fa141cbc4adf3a967771769edac9d7c067cb93ffb40c0"
+    }
+  ],
+  "product_records_compared_with_originals": 8000,
+  "product_ids_unique": true,
+  "one_search_text_per_product": true,
+  "evaluation_labels_with_valid_product_links": 2140,
+  "evaluation_splits_have_no_shared_label_ids": true,
+  "profile_answer_and_cot_excluded_from_exports": true,
+  "all_principal_protected_values_false": true,
+  "early_termination_not_treated_as_early_redemption": true,
+  "products": {
+    "accepted": 8000,
+    "duplicates_collapsed": 0,
+    "review_records": 0,
+    "one_search_text_per_product": true,
+    "meets_f2001_minimum_count": true,
+    "changed_text_fields": {
+      "investment_strategy": 5395,
+      "income_rate": 15,
+      "product_name": 1
+    },
+    "parse_stats": {
+      "product_risk_grade": {
+        "parsed": 8000
+      },
+      "principal_protected": {
+        "parsed": 8000
+      },
+      "income_rate": {
+        "unknown": 89,
+        "parsed": 7911
+      },
+      "maturity": {
+        "parsed": 7993,
+        "unknown": 7
+      },
+      "liquidity": {
+        "parsed": 8000
+      },
+      "loss_rate": {
+        "parsed": 8000
+      },
+      "tax_benefit": {
+        "parsed": 8000
+      },
+      "payment": {
+        "parsed": 8000
+      }
+    },
+    "quality_flags": {
+      "income_rate:unparsed_value": 89,
+      "income_rate:basis_date_unverified": 8000,
+      "liquidity_conditions:detailed_conditions_unverified": 8000,
+      "investment_strategy:damaged_or_unresolved_text": 29,
+      "loss_rate:maximum_loss_not_stated": 10,
+      "maturity:unparsed_value": 7
+    }
+  },
+  "labels": {
+    "evaluation_ready": 2140,
+    "review_records": 7,
+    "duplicates_collapsed": 0,
+    "ready_by_split": {
+      "training": 1902,
+      "validation": 238
+    },
+    "review_codes": {
+      "unmatched_product_name": 5,
+      "invalid_product_names": 2
+    },
+    "product_link_counts": {
+      "exact": 5010,
+      "unmatched": 6
+    },
+    "profile_answer_cot_exported": false
+  },
+  "outputs": {
+    "evaluation/test.jsonl": {
+      "records": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evaluation/training.jsonl": {
+      "records": 1902,
+      "bytes": 4831617,
+      "sha256": "4567e5ca9c901ef9ff9e2a87f3650c7a9387626bf171f759db72b10d6c20f876"
+    },
+    "evaluation/validation.jsonl": {
+      "records": 238,
+      "bytes": 672946,
+      "sha256": "a47e805dddbe7679aa1689e1db401c7334f98b9d150b406fc77f12e040c4aa3f"
+    },
+    "products.jsonl": {
+      "records": 8000,
+      "bytes": 76914165,
+      "sha256": "e2d7526db381daefe1c8e38ae3888c3b7e65e8c926a94381d64ce0921b8f981d"
+    },
+    "review/input_issues.jsonl": {
+      "records": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "review/labels.jsonl": {
+      "records": 7,
+      "bytes": 15174,
+      "sha256": "f334ce76db56de0436976b633a5c013132d8fb0813e6a0e10c9c0e4a7ded88d9"
+    },
+    "review/product_warnings.jsonl": {
+      "records": 8000,
+      "bytes": 3197102,
+      "sha256": "ebc5d9bc05e905f9e125a85d8d0d1dfc5c7e97d19f2d9b7f8ce3d9791865850c"
+    },
+    "review/products.jsonl": {
+      "records": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "run": 38,
+    "passed": 37,
+    "failed": 0,
+    "skipped": [
+      {
+        "test": "PreparationTests.test_existing_output_hardlink_to_raw_is_rejected",
+        "reason": "Sandbox does not permit hardlink creation; other raw output protection tests passed."
+      }
+    ]
+  },
+  "embedding_performed": false,
+  "external_api_calls": 0
+}

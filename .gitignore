@@ -1,0 +1,14 @@
+# Licensed AI Hub inputs and generated local manifests
+/data/raw/
+/data/external/
+/data/processed/
+/storage/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-*/
+.venv/
+venv/

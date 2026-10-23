@@ -1,0 +1,63 @@
+{
+  "verified_at": "2026-10-23T02:46:43.769600+00:00",
+  "python_version": "3.12.14",
+  "audit_command": "python scripts/audit_data.py",
+  "repeated_full_audit_statistics_equal_excluding_timestamp": true,
+  "repeated_inventory_sha256_equal": true,
+  "inventory_sha256": "977bf3ac004b51e79a157cb06c819aed12fe7f172e03d7fb28b60d806350852a",
+  "raw_integrity": {
+    "algorithm": "sha256",
+    "before_after_equal": true,
+    "files_checked": 8
+  },
+  "raw_files": [
+    {
+      "path": "labels/training/TL_1.CoT_1.증권_03.상품 비교 추천형.zip",
+      "bytes": 4256859,
+      "sha256": "94995adc90d98b20261ba722e710cdfef25e9bbd149513e7e6c3b2d3177ad4c3"
+    },
+    {
+      "path": "labels/validation/VL_1.CoT_1.증권_03.상품 비교 추천형.zip",
+      "bytes": 548570,
+      "sha256": "4ace80b45d4f94db916c08c81a1e199a10251a06a2897304d082fd258860f30c"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_01.주식형.zip",
+      "bytes": 2883672,
+      "sha256": "5722a733a4a446314b5446c30ce16f00d3c13aabeb8141c6aa2a77adfac0c340"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_02.채권형.zip",
+      "bytes": 1432640,
+      "sha256": "575fe2e2f9c89cdd8c5b1f7b833b5f724b90aee371e000412477d96ecb2123cf"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_03.재간접.zip",
+      "bytes": 3541801,
+      "sha256": "f5460862e621d08583695e71921a7fa868149e17dfd489334d34a75cf7e2746a"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_04.단기금융.zip",
+      "bytes": 438253,
+      "sha256": "de923888ce97eda74fd18bd1c622443d25dffa6db7c0d97c9bb292c1d860a992"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_05.파생형.zip",
+      "bytes": 278441,
+      "sha256": "6522cab1e1f8df6550a613caf5db0d5ea4766105ce22defbd2e16f076044b02d"
+    },
+    {
+      "path": "products/securities/TS_1.상품_1.증권_06.퇴직연금.zip",
+      "bytes": 2416724,
+      "sha256": "3d7c843cd1c0732d5e4fa141cbc4adf3a967771769edac9d7c067cb93ffb40c0"
+    }
+  ],
+  "logical_files": 10147,
+  "parsed_records": 10147,
+  "parse_errors": 0,
+  "field_findings": 8,
+  "unit_test_command": "python -m unittest discover -s tests -v",
+  "unit_tests_passed": 14,
+  "unit_test_note": "Tests passed using bundled Python outside sandbox because default OS temporary directory was blocked inside sandbox.",
+  "scope": "Read-only offline audit; no source edits, extraction, normalization output, embedding, UI, or network calls."
+}
