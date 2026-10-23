@@ -1,0 +1,296 @@
+{
+  "verified_at": "2026-10-23T05:13:54.978298+00:00",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimension": 384,
+  "signature": "298bb5fbc2853687bf6f45ac0a5b6346c602fa3d646bfa6a7a3ace1c48643ec3",
+  "collections": {
+    "financial_products": {
+      "count_first": 8000,
+      "count_second": 8000,
+      "delta": 0,
+      "second_upserted": 0,
+      "ids_identical": true
+    },
+    "financial_documents": {
+      "count_first": 15287,
+      "count_second": 15287,
+      "delta": 0,
+      "second_upserted": 0,
+      "ids_identical": true
+    }
+  },
+  "all_vectors_verified": {
+    "financial_products": 8000,
+    "financial_documents": 15287
+  },
+  "document_preparation": {
+    "documents": 15,
+    "pages": 427,
+    "unique_chunks": 3389,
+    "product_chunk_records": 15287,
+    "linked_products": 23,
+    "max_chunk_chars": 373,
+    "max_chunk_tokens": 128,
+    "document_chunks_sha256": "1bc76d757afb8749c7df105de5007c8c52b980bfe78cf1536d365d40691048df"
+  },
+  "retrieval_checks": [
+    {
+      "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+      "product_name": "BNK K200인덱스증권투자신탁(주식-파생형)(A)",
+      "metadata_included": true,
+      "document_hits": 5,
+      "cross_product_evidence": false,
+      "sources": [
+        {
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 44,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 14,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 34,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 10,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 6,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        }
+      ],
+      "latency_ms": 40.52
+    },
+    {
+      "product_id": "sec_281f31009d1de418115b2123a5d11e179f3403462385fbebf30d8353ab6599ee",
+      "product_name": "BNK공모주플러스10증권투자신탁1호(채권혼합)(C)",
+      "metadata_included": true,
+      "document_hits": 5,
+      "cross_product_evidence": false,
+      "sources": [
+        {
+          "document_id": "doc_b7ff109e37d2d96449fc58f8f529ab3c3a386eaab519ea4ec9308e342eaa3a08",
+          "page_number": 38,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7123&fid=2"
+        },
+        {
+          "document_id": "doc_b7ff109e37d2d96449fc58f8f529ab3c3a386eaab519ea4ec9308e342eaa3a08",
+          "page_number": 37,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7123&fid=2"
+        },
+        {
+          "document_id": "doc_b7ff109e37d2d96449fc58f8f529ab3c3a386eaab519ea4ec9308e342eaa3a08",
+          "page_number": 36,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7123&fid=2"
+        },
+        {
+          "document_id": "doc_8f3d76b162724e0d5729b3067a9e9c7a0782b7828cde99e55e24491d362fa7c1",
+          "page_number": 17,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6074&fid=2"
+        },
+        {
+          "document_id": "doc_b7ff109e37d2d96449fc58f8f529ab3c3a386eaab519ea4ec9308e342eaa3a08",
+          "page_number": 38,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7123&fid=2"
+        }
+      ],
+      "latency_ms": 39.28
+    },
+    {
+      "product_id": "sec_2b542812a1a386223299abc28f3173f56dd2d6fbe25740697a325e5f9f147565",
+      "product_name": "BNK튼튼배당증권자투자신탁1호(주식)(A1)",
+      "metadata_included": true,
+      "document_hits": 5,
+      "cross_product_evidence": false,
+      "sources": [
+        {
+          "document_id": "doc_f7302ab68d2332799064e3d24145cf438e0f6ac143addf481451321a7de946bb",
+          "page_number": 43,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6673&fid=2"
+        },
+        {
+          "document_id": "doc_16bf8ebd76318a8d162fbeae9e1228298543ae9069282de43c5c48406e747d0a",
+          "page_number": 16,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6116&fid=2"
+        },
+        {
+          "document_id": "doc_f7302ab68d2332799064e3d24145cf438e0f6ac143addf481451321a7de946bb",
+          "page_number": 41,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6673&fid=2"
+        },
+        {
+          "document_id": "doc_f7302ab68d2332799064e3d24145cf438e0f6ac143addf481451321a7de946bb",
+          "page_number": 42,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6673&fid=2"
+        },
+        {
+          "document_id": "doc_f7302ab68d2332799064e3d24145cf438e0f6ac143addf481451321a7de946bb",
+          "page_number": 5,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6673&fid=2"
+        }
+      ],
+      "latency_ms": 35.83
+    },
+    {
+      "product_id": "sec_7025f4d6b967a8976948ae1faa0f3508837c02ce4abfe4c778eef892e913ee59",
+      "product_name": "BNK삼성전자중소형증권투자신탁1호(주식)(A)",
+      "metadata_included": true,
+      "document_hits": 5,
+      "cross_product_evidence": false,
+      "sources": [
+        {
+          "document_id": "doc_8a31a0db99c5935788a259e33201d6c6460f8a77cc619d5cf8b1491f38e2c19d",
+          "page_number": 33,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6894&fid=3"
+        },
+        {
+          "document_id": "doc_8a31a0db99c5935788a259e33201d6c6460f8a77cc619d5cf8b1491f38e2c19d",
+          "page_number": 2,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6894&fid=3"
+        },
+        {
+          "document_id": "doc_8a31a0db99c5935788a259e33201d6c6460f8a77cc619d5cf8b1491f38e2c19d",
+          "page_number": 34,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6894&fid=3"
+        },
+        {
+          "document_id": "doc_8a31a0db99c5935788a259e33201d6c6460f8a77cc619d5cf8b1491f38e2c19d",
+          "page_number": 43,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6894&fid=3"
+        },
+        {
+          "document_id": "doc_dad9993ae40d17b88744d842ab4f06a502fc738ea09ec5dcd06a82b2d474727c",
+          "page_number": 3,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6894&fid=2"
+        }
+      ],
+      "latency_ms": 37.43
+    },
+    {
+      "product_id": "sec_ae69c964ffeba953892cfb69e752b741238a1e7750d013c5bb95f23ad91b04d5",
+      "product_name": "BNK법인MMF1호(국공채)(C)",
+      "metadata_included": true,
+      "document_hits": 5,
+      "cross_product_evidence": false,
+      "sources": [
+        {
+          "document_id": "doc_7dbfadd73632181b3bcb220ed57dad880c96ed7909115cd06b01526205500092",
+          "page_number": 29,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6801&fid=3"
+        },
+        {
+          "document_id": "doc_760b4d170849440a3961a9f24e5c128a6fe6a3f2ec6b57cf8a7eef89e702c5d3",
+          "page_number": 7,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=5081&fid=2"
+        },
+        {
+          "document_id": "doc_7dbfadd73632181b3bcb220ed57dad880c96ed7909115cd06b01526205500092",
+          "page_number": 32,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6801&fid=3"
+        },
+        {
+          "document_id": "doc_7dbfadd73632181b3bcb220ed57dad880c96ed7909115cd06b01526205500092",
+          "page_number": 5,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6801&fid=3"
+        },
+        {
+          "document_id": "doc_760b4d170849440a3961a9f24e5c128a6fe6a3f2ec6b57cf8a7eef89e702c5d3",
+          "page_number": 12,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=5081&fid=2"
+        }
+      ],
+      "latency_ms": 32.39
+    }
+  ],
+  "selected_product_metadata_always_included": true,
+  "top_k_change_verified": true,
+  "comparison_metadata_included": true,
+  "source_page_text_slices_verified": true,
+  "named_product_search": {
+    "query": "BNK K200인덱스증권투자신탁",
+    "target_family_in_top5": false,
+    "results": [
+      {
+        "product_id": "sec_4de54a980bb1bc6a29cd7a909eea9031d321a1d53dba472a4034184753824e4d",
+        "product_name": "KB 베트남 포커스 증권자투자신탁(주식혼합)(H)(C-P)",
+        "distance": 0.32864999771118164
+      },
+      {
+        "product_id": "sec_04e5a51e8ddd4e9e331ae89ef9ef4817ebd84152f79ffea800cd9dbf1d499792",
+        "product_name": "KB 베트남 포커스 증권자투자신탁(주식)(H)(A-E)",
+        "distance": 0.33447134494781494
+      },
+      {
+        "product_id": "sec_ecaa6ba136bc733640aa24a835a86b80f934d7472b332bd6583ff91ec8ac052d",
+        "product_name": "KB스타 한국 인덱스 증권자투자신탁(주식)(C-E)",
+        "distance": 0.3377971053123474
+      },
+      {
+        "product_id": "sec_27fed8f6a128123a466dcad2c797bd63d0bc7af8fdbd809558111afa8601a200",
+        "product_name": "BNK튼튼배당만기관리형장기소득공제증권자투자신탁1호(주식혼합)(S-T)",
+        "distance": 0.3398647904396057
+      },
+      {
+        "product_id": "sec_b39ddb7cfe811687e2639adf2465e989836e2fce8326566f0ab48a8bf928f381",
+        "product_name": "한국투자 퇴직연금 엄브렐러LCF 인덱스40 증권 전환형 자투자신탁 1호[채권혼합](신탁)",
+        "distance": 0.3432021141052246
+      }
+    ]
+  },
+  "official_name_priority_search": {
+    "target_family_in_top5": true,
+    "official_name_hits": 4,
+    "results": [
+      {
+        "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+        "product_name": "BNK K200인덱스증권투자신탁(주식-파생형)(A)",
+        "match_type": "official_name",
+        "distance": null
+      },
+      {
+        "product_id": "sec_5f8268b41034510a9dab900850f347e0d9d0b7e420bfc792f2ef0f58728c22a2",
+        "product_name": "BNK K200인덱스증권투자신탁(주식-파생형)(C)",
+        "match_type": "official_name",
+        "distance": null
+      },
+      {
+        "product_id": "sec_b06873063271de94f6d7c828c0884d44f87b606d1d863219f22c5d5775feb9f6",
+        "product_name": "BNK K200인덱스증권투자신탁(주식-파생형)(Ae)",
+        "match_type": "official_name",
+        "distance": null
+      },
+      {
+        "product_id": "sec_d0400a41bc80e66a0ea22b76adc64c7eb252054310d396f0d8bf0053abf26b7b",
+        "product_name": "BNK K200인덱스증권투자신탁(주식-파생형)(C-e)",
+        "match_type": "official_name",
+        "distance": null
+      },
+      {
+        "product_id": "sec_4de54a980bb1bc6a29cd7a909eea9031d321a1d53dba472a4034184753824e4d",
+        "product_name": "KB 베트남 포커스 증권자투자신탁(주식혼합)(H)(C-P)",
+        "match_type": "semantic",
+        "distance": 0.32864999771118164
+      }
+    ]
+  },
+  "raw_and_normalized_inputs_unchanged": true,
+  "all_downloaded_pdfs_unchanged": true,
+  "principal_protection_metadata_filter_verified": true,
+  "python_network_blocked": true,
+  "external_embedding_api_calls": 0,
+  "second_build_embedding_stats": {},
+  "limitations": [
+    "Semantic retrieval is not an eligibility/suitability decision",
+    "Semantic relevance needs separate evaluation",
+    "Only 23 products have linked PDFs",
+    "No LangGraph generation or user interface implemented"
+  ]
+}

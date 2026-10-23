@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-10-23T05:54:29.131527+00:00",
+  "reviewer": "coding_agent",
+  "claims_reviewed": 20,
+  "method": "Reviewed each of the 20 accepted claims and its quoted supplied source. Checked risk/principal/max loss, fund common redemption versus class fees, and current-return abstention. Not an independent expert assessment.",
+  "case_results": {
+    "risk": {
+      "claims": 6,
+      "source_alignment": "reviewed"
+    },
+    "liquidity": {
+      "claims": 4,
+      "source_alignment": "reviewed"
+    },
+    "comparison": {
+      "claims": 6,
+      "source_alignment": "reviewed"
+    },
+    "current_return": {
+      "claims": 0,
+      "source_alignment": "no_claims"
+    },
+    "principal_required": {
+      "claims": 0,
+      "source_alignment": "no_claims"
+    },
+    "unknown_redemption": {
+      "claims": 0,
+      "source_alignment": "no_claims"
+    },
+    "no_pdf": {
+      "claims": 4,
+      "source_alignment": "reviewed"
+    }
+  },
+  "unit_ui_tests": {
+    "total": 71,
+    "passed": 71,
+    "failed": 0,
+    "skipped": 0,
+    "execution": "elevated local loopback permitted for Windows asyncio AppTest"
+  },
+  "pip_check": "passed",
+  "screenshots": "docs/evidence/screenshots/"
+}

@@ -1,0 +1,345 @@
+{
+  "evaluated_at": "2026-10-23T05:48:01.125032+00:00",
+  "model": "gpt-6-astra",
+  "endpoint": "https://gms.ssafy.io/gmsapi/api.openai.com/v1/responses",
+  "source_transmission": "explicit_user_authorization; license_not_independently_verified",
+  "cases": [
+    {
+      "question_id": "risk",
+      "question": "이 상품의 원금 손실 위험과 위험등급을 설명해 줘.",
+      "status": "answered",
+      "selected_product_ids": [
+        "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+      ],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 6,
+      "cited_count": 5,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 27940.23,
+      "timings": {
+        "retrieve_ms": 17098.79,
+        "generate_ms": 10836.87
+      },
+      "sources": [
+        {
+          "evidence_id": 1,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+        },
+        {
+          "evidence_id": 2,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 19,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "evidence_id": 3,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 18,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "evidence_id": 5,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+          "page_number": 18,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=2"
+        },
+        {
+          "evidence_id": 6,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_a617d311818b9dd3580ec04296ff0922e623d7a0409ea8407560bc21e4eb9552",
+          "page_number": 1,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=7057&fid=3"
+        }
+      ]
+    },
+    {
+      "question_id": "liquidity",
+      "question": "환매 절차와 보수 또는 수수료를 설명해 줘. 근거에 없으면 모른다고 해줘.",
+      "status": "answered",
+      "selected_product_ids": [
+        "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+      ],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 6,
+      "cited_count": 3,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 39630.98,
+      "timings": {
+        "retrieve_ms": 23638.18,
+        "generate_ms": 15989.94
+      },
+      "sources": [
+        {
+          "evidence_id": 1,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+        },
+        {
+          "evidence_id": 3,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_41d2a8c7a107bac41d3ac1fda8546111ca4133b704621b395b9ecf1f867e811b",
+          "page_number": 21,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6359&fid=1"
+        },
+        {
+          "evidence_id": 4,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+          "document_id": "doc_41d2a8c7a107bac41d3ac1fda8546111ca4133b704621b395b9ecf1f867e811b",
+          "page_number": 12,
+          "source_uri": "https://www.bnkasset.co.kr/download.aspx?tb=Gongsi&seq=6359&fid=1"
+        }
+      ]
+    },
+    {
+      "question_id": "comparison",
+      "question": "두 상품의 위험등급과 원금보장 여부를 비교해 줘.",
+      "status": "answered",
+      "selected_product_ids": [
+        "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+        "sec_281f31009d1de418115b2123a5d11e179f3403462385fbebf30d8353ab6599ee"
+      ],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 7,
+      "cited_count": 2,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 51733.94,
+      "timings": {
+        "retrieve_ms": 33492.19,
+        "generate_ms": 18237.01
+      },
+      "sources": [
+        {
+          "evidence_id": 1,
+          "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+        },
+        {
+          "evidence_id": 2,
+          "product_id": "sec_281f31009d1de418115b2123a5d11e179f3403462385fbebf30d8353ab6599ee"
+        }
+      ]
+    },
+    {
+      "question_id": "current_return",
+      "question": "오늘 수익률은 얼마야?",
+      "status": "insufficient_evidence",
+      "selected_product_ids": [
+        "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d"
+      ],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 6,
+      "cited_count": 0,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 18672.62,
+      "timings": {
+        "retrieve_ms": 18669.47
+      },
+      "sources": []
+    },
+    {
+      "question_id": "principal_required",
+      "question": "원금보장 필수 상품을 찾아줘.",
+      "status": "no_candidates",
+      "selected_product_ids": [],
+      "constraints": {
+        "principal_required": true,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 0,
+      "cited_count": 0,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 24.0,
+      "timings": {},
+      "sources": []
+    },
+    {
+      "question_id": "unknown_redemption",
+      "question": "중도환매 가능한 상품을 찾아줘.",
+      "status": "no_candidates",
+      "selected_product_ids": [],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": true,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 0,
+      "cited_count": 0,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 18.31,
+      "timings": {},
+      "sources": []
+    },
+    {
+      "question_id": "no_pdf",
+      "question": "이 상품의 원금 손실 위험을 알려줘.",
+      "status": "answered",
+      "selected_product_ids": [
+        "sec_002845a8bcb5c3e77254da254e1d05d83d08da6b847820f6b0e7df721e571717"
+      ],
+      "constraints": {
+        "principal_required": false,
+        "minimum_risk_grade": null,
+        "product_type": null,
+        "early_redemption_required": false,
+        "no_maturity": false,
+        "maximum_maturity_months": null,
+        "ambiguous": false
+      },
+      "condition_violations": 0,
+      "retrieved_count": 1,
+      "cited_count": 1,
+      "citation_structure_valid": true,
+      "rejected_claims": 0,
+      "latency_ms": 27499.63,
+      "timings": {
+        "retrieve_ms": 12011.09,
+        "generate_ms": 15484.46
+      },
+      "sources": [
+        {
+          "evidence_id": 1,
+          "product_id": "sec_002845a8bcb5c3e77254da254e1d05d83d08da6b847820f6b0e7df721e571717"
+        }
+      ]
+    }
+  ],
+  "catalog_cache_reuse_verified": true,
+  "gms_calls": 15,
+  "usage": [
+    {
+      "input_tokens": 226,
+      "output_tokens": 107,
+      "total_tokens": 333
+    },
+    {
+      "input_tokens": 923,
+      "output_tokens": 362,
+      "total_tokens": 1285
+    },
+    {
+      "input_tokens": 2770,
+      "output_tokens": 856,
+      "total_tokens": 3626
+    },
+    {
+      "input_tokens": 236,
+      "output_tokens": 138,
+      "total_tokens": 374
+    },
+    {
+      "input_tokens": 933,
+      "output_tokens": 410,
+      "total_tokens": 1343
+    },
+    {
+      "input_tokens": 2665,
+      "output_tokens": 892,
+      "total_tokens": 3557
+    },
+    {
+      "input_tokens": 226,
+      "output_tokens": 109,
+      "total_tokens": 335
+    },
+    {
+      "input_tokens": 923,
+      "output_tokens": 387,
+      "total_tokens": 1310
+    },
+    {
+      "input_tokens": 226,
+      "output_tokens": 81,
+      "total_tokens": 307
+    },
+    {
+      "input_tokens": 913,
+      "output_tokens": 393,
+      "total_tokens": 1306
+    },
+    {
+      "input_tokens": 3129,
+      "output_tokens": 879,
+      "total_tokens": 4008
+    },
+    {
+      "input_tokens": 216,
+      "output_tokens": 167,
+      "total_tokens": 383
+    },
+    {
+      "input_tokens": 913,
+      "output_tokens": 369,
+      "total_tokens": 1282
+    },
+    {
+      "input_tokens": 262,
+      "output_tokens": 278,
+      "total_tokens": 540
+    },
+    {
+      "input_tokens": 1287,
+      "output_tokens": 555,
+      "total_tokens": 1842
+    }
+  ],
+  "collection_counts_unchanged": {
+    "financial_products": 8000,
+    "financial_documents": 15287
+  },
+  "raw_unchanged": true,
+  "fact_entailment_review": "pending_manual_review; valid citation IDs/quotes alone do not establish factual entailment"
+}

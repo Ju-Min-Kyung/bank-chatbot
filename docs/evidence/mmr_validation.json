@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-10-23T06:09:19.276761+00:00",
+  "requirement": "F2014",
+  "tests": {
+    "total": 77,
+    "passed": 77,
+    "failed": 0,
+    "skipped": 0
+  },
+  "pip_check": "passed",
+  "same_candidate_pool": true,
+  "retrieval_metadata_and_source_filter_preserved": true,
+  "no_gms_calls": true,
+  "existing_collection_counts_unchanged": {
+    "financial_products": 8000,
+    "financial_documents": 15287
+  },
+  "browser_verified": {
+    "tab": "검색 방식 비교",
+    "candidate_limit": 30,
+    "selected_limit": 10,
+    "lambda_mult": 0.5,
+    "observed_unique_candidates": 28,
+    "observed_similarity_pages": 6,
+    "observed_mmr_pages": 10,
+    "screenshot": "docs/evidence/screenshots/mmr_comparison.png"
+  },
+  "file_sha256": {
+    "src/rag/mmr.py": "50dabd1f6215888bb0ba58511fcd58f0e380fe1d7ab8bed569ae25ad53e59e2e",
+    "src/rag/retriever.py": "cb74827dacb028290a9d33e53b86c0e739579133ca7bb2d4d937e7c46fd48b19",
+    "src/rag/graph.py": "a48aae8ea5b597aa581187bf3d2a2d236c798f4b8b941944553a6ae584a78f63",
+    "config.py": "7b0dd911cbf2ba5a17a42c7d0abec18472b954a5adfe59260d24ca8bd818f883",
+    "app.py": "1ffefdbae1add1159fb284e934da0127386e723375726209b591ebbf9229abab",
+    "docs/evidence/screenshots/mmr_comparison.png": "9979808cd09504798242e8cd940ca05dc39e296e15eadcc55da4fd7602c0b7ab"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "initial_official_securities_document_bundle",
+  "source_review": "URLs observed in BNK official fund listing pages and their iframe attributes",
+  "funds": [
+    {
+      "fund_name": "BNK K200인덱스증권투자신탁(주식-파생형)",
+      "fund_page": "https://www.bnkasset.co.kr/product/mo_view1.aspx?fund_cd=10080",
+      "detail_page": "https://www.bnkasset.co.kr/product/view1_iframe.aspx?fund_cd=10081"
+    },
+    {
+      "fund_name": "BNK공모주플러스10증권투자신탁1호(채권혼합)",
+      "fund_page": "https://www.bnkasset.co.kr/product/mo_view3.aspx?fund_cd=20200&pgbn=3",
+      "detail_page": "https://www.bnkasset.co.kr/product/view3_iframe.aspx?fund_cd=20201&pgbn=3"
+    },
+    {
+      "fund_name": "BNK튼튼배당증권자투자신탁1호(주식)",
+      "fund_page": "https://www.bnkasset.co.kr/product/mo_view1.aspx?fund_cd=10061",
+      "detail_page": "https://www.bnkasset.co.kr/product/view1_iframe.aspx?fund_cd=10062"
+    },
+    {
+      "fund_name": "BNK삼성전자중소형증권투자신탁1호(주식)",
+      "fund_page": "https://www.bnkasset.co.kr/product/mo_view1.aspx?fund_cd=10220",
+      "detail_page": "https://www.bnkasset.co.kr/product/view1_iframe.aspx?fund_cd=10221"
+    },
+    {
+      "fund_name": "BNK법인MMF1호(국공채)",
+      "fund_page": "https://www.bnkasset.co.kr/product/mo_view3.aspx?fund_cd=20012&pgbn=5",
+      "detail_page": "https://www.bnkasset.co.kr/product/view3_iframe.aspx?fund_cd=20014&pgbn=5"
+    }
+  ]
+}

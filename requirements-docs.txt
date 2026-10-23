@@ -1,0 +1,2 @@
+# Used only for local PDF validation during official document collection.
+pypdf==6.10.0

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "endpoint": "https://gms.ssafy.io/gmsapi/api.openai.com/v1/responses",
+  "model": "gpt-6-astra",
+  "request_type": "synthetic_only",
+  "structured_output": true,
+  "store": false,
+  "latency_ms": 2826.1,
+  "usage": [
+    {
+      "input_tokens": 51,
+      "output_tokens": 15,
+      "total_tokens": 66
+    }
+  ]
+}

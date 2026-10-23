@@ -1,0 +1,67 @@
+{
+  "collections": {
+    "financial_products": {
+      "before": 8000,
+      "after": 8000,
+      "upserted": 0,
+      "unchanged": 8000,
+      "stale_removed": 0,
+      "ids_sha256": "e5dbefdfe0a96fcd16754bca71de70e26851f1301d32c93e1d9afbe9a35379dd"
+    },
+    "financial_documents": {
+      "before": 2432,
+      "after": 15287,
+      "upserted": 12855,
+      "unchanged": 2432,
+      "stale_removed": 0,
+      "ids_sha256": "2c06d0e7f3a2d15dbfe49d2797540d75847ca089c75398894ece5a536f2ed369"
+    }
+  },
+  "document_preparation": {
+    "documents": 15,
+    "pages": 427,
+    "unique_chunks": 3389,
+    "product_chunk_records": 15287,
+    "linked_products": 23,
+    "max_chunk_chars": 373,
+    "max_chunk_tokens": 128,
+    "document_chunks_sha256": "1bc76d757afb8749c7df105de5007c8c52b980bfe78cf1536d365d40691048df"
+  },
+  "schema_version": 1,
+  "status": "ready",
+  "built_at": "2026-10-23T05:08:28.770202+00:00",
+  "embedding_provider": "fastembed_local_onnx_cpu",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_signature": "298bb5fbc2853687bf6f45ac0a5b6346c602fa3d646bfa6a7a3ace1c48643ec3",
+  "model_revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+  "model_fingerprint": "26431db5bbc0c7c7b9ea1bfe59dfc1f3d45a8f2115900ad98952ce4f75a7c7ac",
+  "model_license": "apache-2.0",
+  "embedding_dimension": 384,
+  "max_tokens": 128,
+  "chunk_size_chars": 1000,
+  "requested_overlap_chars": 200,
+  "overlap_policy": "min(requested_overlap,actual_chunk_length//5)",
+  "long_product_embedding": "mean of all 128-token-bounded window vectors then L2 normalization",
+  "embedding_stats_this_run": {
+    "windows_inferred": 2651,
+    "texts_embedded": 2651,
+    "text_windows": 2651,
+    "multi_window_texts": 0,
+    "text_cache_hits": 825
+  },
+  "elapsed_seconds": 171.538,
+  "cpu_threads_per_worker": 1,
+  "cpu_workers": 8,
+  "sources": {
+    "products_sha256": "e2d7526db381daefe1c8e38ae3888c3b7e65e8c926a94381d64ce0921b8f981d",
+    "preparation_manifest_sha256": "18c0f797c972ab5925cc342a112b9b6f009bcaec334a5af232352d0bc7175d19",
+    "document_manifest_sha256": "2f704a9a08eda800c3ba234efcd93761e7cdbfae8fc4fe634a9d697c0d4f9eec",
+    "document_links_sha256": "fd5a5024d641742ba6fdc5863363c078d07a81b093d3594ae1354335d08a4c9c"
+  },
+  "privacy": {
+    "python_network_blocked": true,
+    "telemetry_disabled": true,
+    "external_embedding_api_calls": 0,
+    "labels_and_cot_indexed": false
+  }
+}

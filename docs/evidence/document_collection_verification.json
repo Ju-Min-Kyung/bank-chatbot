@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-10-23T04:27:03.333380+00:00",
+  "totals": {
+    "funds": 5,
+    "pdfs": 25,
+    "pages": 453,
+    "primary_documents": 15,
+    "amendment_tables": 10,
+    "linked_products": 23,
+    "product_document_relations": 54,
+    "review_items": 19
+  },
+  "pdf_signatures_and_sha256_verified": 25,
+  "unique_document_ids": 25,
+  "all_pdf_family_identities_verified": true,
+  "raw_files_unchanged": true,
+  "normalized_products_unchanged": true,
+  "all_product_links_resolve": true,
+  "all_evidence_page_numbers_in_range": true,
+  "amendment_tables_excluded_from_product_evidence_links": true,
+  "cache_only_run_http_requests": 0,
+  "cache_hits": 45,
+  "primary_first_pages_rendered_and_visually_inspected": 15,
+  "prospectus_class_tables_rendered_and_visually_inspected": 5,
+  "collection_tests_passed": 8,
+  "broader_suite_previous_run": {
+    "tests": 46,
+    "passed": 45,
+    "skipped": 1,
+    "skip_reason": "Hardlink creation denied by sandbox"
+  },
+  "embedding_performed": false,
+  "external_model_calls": 0,
+  "rights": "Local public attachment collection; redistribution and external model transmission permission unverified",
+  "manifest_sha256": "2f704a9a08eda800c3ba234efcd93761e7cdbfae8fc4fe634a9d697c0d4f9eec",
+  "document_links_sha256": "fd5a5024d641742ba6fdc5863363c078d07a81b093d3594ae1354335d08a4c9c"
+}

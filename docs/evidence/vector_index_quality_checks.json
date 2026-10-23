@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-23T05:14:28.409091+00:00",
+  "unittest": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+    "total": 56,
+    "passed": 55,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "Hardlink creation unavailable: PermissionError"
+  },
+  "pip_check": "No broken requirements found",
+  "visual_source_page_check": {
+    "rendered_pages": [
+      {
+        "product_id": "sec_53cdb52b41d92fdd3f592dc70c6e216b7a9bd61f458bd99c5d170b144cddaf7d",
+        "document_id": "doc_cdbd40d32011c02cb50eb59eaeba20182c57a52bbf143a13a201ea18ec8bb7f1",
+        "page_number": 44,
+        "image": "data/processed/index_qa/retrieved_page_1.png"
+      },
+      {
+        "product_id": "sec_281f31009d1de418115b2123a5d11e179f3403462385fbebf30d8353ab6599ee",
+        "document_id": "doc_b7ff109e37d2d96449fc58f8f529ab3c3a386eaab519ea4ec9308e342eaa3a08",
+        "page_number": 38,
+        "image": "data/processed/index_qa/retrieved_page_2.png"
+      },
+      {
+        "product_id": "sec_2b542812a1a386223299abc28f3173f56dd2d6fbe25740697a325e5f9f147565",
+        "document_id": "doc_f7302ab68d2332799064e3d24145cf438e0f6ac143addf481451321a7de946bb",
+        "page_number": 43,
+        "image": "data/processed/index_qa/retrieved_page_3.png"
+      },
+      {
+        "product_id": "sec_7025f4d6b967a8976948ae1faa0f3508837c02ce4abfe4c778eef892e913ee59",
+        "document_id": "doc_8a31a0db99c5935788a259e33201d6c6460f8a77cc619d5cf8b1491f38e2c19d",
+        "page_number": 33,
+        "image": "data/processed/index_qa/retrieved_page_4.png"
+      },
+      {
+        "product_id": "sec_ae69c964ffeba953892cfb69e752b741238a1e7750d013c5bb95f23ad91b04d5",
+        "document_id": "doc_7dbfadd73632181b3bcb220ed57dad880c96ed7909115cd06b01526205500092",
+        "page_number": 29,
+        "image": "data/processed/index_qa/retrieved_page_5.png"
+      }
+    ],
+    "contact_sheet": "data/processed/index_qa/retrieved_pages_contact_sheet.png",
+    "visually_inspected": true,
+    "result": "Readable PDF pages and fund-family headers correspond to stored document/page metadata; this is provenance inspection, not semantic relevance approval"
+  },
+  "retrieval_limitation": "Source isolation and page alignment verified. Semantic relevance requires a separate evaluation; retrieved common text/tables may be irrelevant to the question."
+}
